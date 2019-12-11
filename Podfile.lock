@@ -1,0 +1,1201 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - APAddressBook/Core (0.3.2)
+  - APAddressBook/Swift (0.3.2):
+    - APAddressBook/Core
+  - AppAuth (1.2.0):
+    - AppAuth/Core (= 1.2.0)
+    - AppAuth/ExternalUserAgent (= 1.2.0)
+  - AppAuth/Core (1.2.0)
+  - AppAuth/ExternalUserAgent (1.2.0)
+  - AutoInsetter (1.8.0)
+  - BiometricAuthentication (3.0)
+  - Crashlytics (3.14.0):
+    - Fabric (~> 1.10.2)
+  - CryptoSwift (1.1.2)
+  - Fabric (1.10.2)
+  - Firebase/Auth (6.10.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 6.3.0)
+  - Firebase/Core (6.10.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.1.3)
+  - Firebase/CoreOnly (6.10.0):
+    - FirebaseCore (= 6.3.1)
+  - Firebase/Database (6.10.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 6.1.1)
+  - Firebase/DynamicLinks (6.10.0):
+    - Firebase/CoreOnly
+    - FirebaseDynamicLinks (~> 4.0.5)
+  - Firebase/Messaging (6.10.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.1.6)
+  - Firebase/MLVision (6.10.0):
+    - Firebase/CoreOnly
+    - FirebaseMLVision (~> 0.19.0)
+  - Firebase/MLVisionLabelModel (6.10.0):
+    - Firebase/CoreOnly
+    - FirebaseMLVisionLabelModel (~> 0.19.0)
+  - Firebase/Performance (6.10.0):
+    - Firebase/CoreOnly
+    - FirebasePerformance (~> 3.1.5)
+  - Firebase/RemoteConfig (6.10.0):
+    - Firebase/CoreOnly
+    - FirebaseRemoteConfig (~> 4.4.2)
+  - FirebaseABTesting (3.1.2):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.1)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseAnalytics (6.1.3):
+    - FirebaseCore (~> 6.3)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleAppMeasurement (= 6.1.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3.901)
+  - FirebaseAnalyticsInterop (1.4.0)
+  - FirebaseAuth (6.3.0):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (6.3.1):
+    - FirebaseCoreDiagnostics (~> 1.0)
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Logger (~> 6.2)
+  - FirebaseCoreDiagnostics (1.1.1):
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleDataTransportCCTSupport (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Logger (~> 6.2)
+    - nanopb (~> 0.3.901)
+  - FirebaseCoreDiagnosticsInterop (1.0.0)
+  - FirebaseDatabase (6.1.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.0)
+    - leveldb-library (~> 1.22)
+  - FirebaseDynamicLinks (4.0.5):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.2)
+  - FirebaseInstanceID (4.2.5):
+    - FirebaseCore (~> 6.0)
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/UserDefaults (~> 6.0)
+  - FirebaseMessaging (4.1.6):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.2)
+    - FirebaseInstanceID (~> 4.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Reachability (~> 6.2)
+    - GoogleUtilities/UserDefaults (~> 6.2)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseMLCommon (0.19.0):
+    - FirebaseCore (~> 6.3)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GoogleUtilities/UserDefaults (~> 6.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.5)
+  - FirebaseMLVision (0.19.0):
+    - FirebaseCore (~> 6.3)
+    - FirebaseMLCommon (~> 0.19)
+    - GoogleAPIClientForREST/Core (~> 1.3)
+    - GoogleAPIClientForREST/Vision (~> 1.3)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.5)
+  - FirebaseMLVisionLabelModel (0.19.0):
+    - FirebaseMLVision (~> 0.19)
+  - FirebasePerformance (3.1.5):
+    - FirebaseCore (~> 6.3)
+    - FirebaseInstanceID (~> 4.2)
+    - FirebaseRemoteConfig (~> 4.4)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/ISASwizzler (~> 6.2)
+    - GoogleUtilities/MethodSwizzler (~> 6.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.9)
+  - FirebaseRemoteConfig (4.4.2):
+    - FirebaseABTesting (~> 3.1)
+    - FirebaseAnalyticsInterop (~> 1.4)
+    - FirebaseCore (~> 6.2)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - "GoogleUtilities/NSData+zlib (~> 6.2)"
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FLAnimatedImage (1.0.12)
+  - fluid-slider (1.1.0):
+    - pop
+  - FontAwesome.swift (1.8.2)
+  - GoogleAPIClientForREST/Core (1.3.10):
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAPIClientForREST/Vision (1.3.10):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAppMeasurement (6.1.3):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3.901)
+  - GoogleDataTransport (3.0.1)
+  - GoogleDataTransportCCTSupport (1.2.1):
+    - GoogleDataTransport (~> 3.0)
+    - nanopb (~> 0.3.901)
+  - GoogleMaps (3.5.0):
+    - GoogleMaps/Maps (= 3.5.0)
+  - GoogleMaps/Base (3.5.0)
+  - GoogleMaps/Maps (3.5.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.5.0):
+    - GoogleMaps/Base (= 3.5.0)
+  - GoogleSignIn (5.0.1):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.1):
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+  - GoogleToolboxForMac/Defines (2.2.1)
+  - GoogleToolboxForMac/Logger (2.2.1):
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.1)":
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.1)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.1)
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.1)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.1)"
+  - GoogleUtilities/AppDelegateSwizzler (6.3.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.3.1)
+  - GoogleUtilities/ISASwizzler (6.3.1)
+  - GoogleUtilities/Logger (6.3.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.3.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.3.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.3.1)"
+  - GoogleUtilities/Reachability (6.3.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.3.1):
+    - GoogleUtilities/Logger
+  - GTMAppAuth (1.0.0):
+    - AppAuth/Core (~> 1.0)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.2.2):
+    - GTMSessionFetcher/Full (= 1.2.2)
+  - GTMSessionFetcher/Core (1.2.2)
+  - GTMSessionFetcher/Full (1.2.2):
+    - GTMSessionFetcher/Core (= 1.2.2)
+  - Hue (5.0.0)
+  - IGListKit (3.4.0):
+    - IGListKit/Default (= 3.4.0)
+  - IGListKit/Default (3.4.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.4.0)
+  - KDDragAndDropCollectionViews (1.5.1)
+  - KeychainAccess (3.2.1)
+  - Kingfisher (5.8.3):
+    - Kingfisher/Core (= 5.8.3)
+  - Kingfisher/Core (5.8.3)
+  - Koyomi (1.2.7)
+  - leveldb-library (1.22)
+  - libPhoneNumber-iOS (0.9.15)
+  - Localize-Swift (2.0.0)
+  - Material (3.1.8):
+    - Material/Core (= 3.1.8)
+  - Material/Core (3.1.8):
+    - Motion (~> 3.1.1)
+  - MaterialComponents (92.4.0):
+    - MaterialComponents/ActionSheet (= 92.4.0)
+    - "MaterialComponents/ActionSheet+Theming (= 92.4.0)"
+    - MaterialComponents/ActivityIndicator (= 92.4.0)
+    - "MaterialComponents/ActivityIndicator+ColorThemer (= 92.4.0)"
+    - MaterialComponents/AnimationTiming (= 92.4.0)
+    - MaterialComponents/AppBar (= 92.4.0)
+    - "MaterialComponents/AppBar+ColorThemer (= 92.4.0)"
+    - "MaterialComponents/AppBar+Theming (= 92.4.0)"
+    - "MaterialComponents/AppBar+TypographyThemer (= 92.4.0)"
+    - MaterialComponents/Banner (= 92.4.0)
+    - "MaterialComponents/Banner+Theming (= 92.4.0)"
+    - MaterialComponents/BottomAppBar (= 92.4.0)
+    - "MaterialComponents/BottomAppBar+ColorThemer (= 92.4.0)"
+    - MaterialComponents/BottomNavigation (= 92.4.0)
+    - "MaterialComponents/BottomNavigation+ColorThemer (= 92.4.0)"
+    - "MaterialComponents/BottomNavigation+Theming (= 92.4.0)"
+    - "MaterialComponents/BottomNavigation+TypographyThemer (= 92.4.0)"
+    - MaterialComponents/BottomSheet (= 92.4.0)
+    - "MaterialComponents/BottomSheet+ShapeThemer (= 92.4.0)"
+    - MaterialComponents/ButtonBar (= 92.4.0)
+    - "MaterialComponents/ButtonBar+ColorThemer (= 92.4.0)"
+    - "MaterialComponents/ButtonBar+TypographyThemer (= 92.4.0)"
+    - MaterialComponents/Buttons (= 92.4.0)
+    - "MaterialComponents/Buttons+ButtonThemer (= 92.4.0)"
+    - "MaterialComponents/Buttons+ColorThemer (= 92.4.0)"
+    - "MaterialComponents/Buttons+ShapeThemer (= 92.4.0)"
+    - "MaterialComponents/Buttons+Theming (= 92.4.0)"
+    - "MaterialComponents/Buttons+TitleColorAccessibilityMutator (= 92.4.0)"
+    - "MaterialComponents/Buttons+TypographyThemer (= 92.4.0)"
+    - MaterialComponents/Cards (= 92.4.0)
+    - "MaterialComponents/Cards+CardThemer (= 92.4.0)"
+    - "MaterialComponents/Cards+ColorThemer (= 92.4.0)"
+    - "MaterialComponents/Cards+ShapeThemer (= 92.4.0)"
+    - "MaterialComponents/Cards+Theming (= 92.4.0)"
+    - MaterialComponents/Chips (= 92.4.0)
+    - "MaterialComponents/Chips+ChipThemer (= 92.4.0)"
+    - "MaterialComponents/Chips+ColorThemer (= 92.4.0)"
+    - "MaterialComponents/Chips+FontThemer (= 92.4.0)"
+    - "MaterialComponents/Chips+ShapeThemer (= 92.4.0)"
+    - "MaterialComponents/Chips+Theming (= 92.4.0)"
+    - "MaterialComponents/Chips+TypographyThemer (= 92.4.0)"
+    - MaterialComponents/CollectionCells (= 92.4.0)
+    - MaterialComponents/CollectionLayoutAttributes (= 92.4.0)
+    - MaterialComponents/Collections (= 92.4.0)
+    - MaterialComponents/Dialogs (= 92.4.0)
+    - "MaterialComponents/Dialogs+ColorThemer (= 92.4.0)"
+    - "MaterialComponents/Dialogs+DialogThemer (= 92.4.0)"
+    - "MaterialComponents/Dialogs+Theming (= 92.4.0)"
+    - "MaterialComponents/Dialogs+TypographyThemer (= 92.4.0)"
+    - MaterialComponents/Elevation (= 92.4.0)
+    - MaterialComponents/FeatureHighlight (= 92.4.0)
+    - "MaterialComponents/FeatureHighlight+ColorThemer (= 92.4.0)"
+    - "MaterialComponents/FeatureHighlight+FeatureHighlightAccessibilityMutator (= 92.4.0)"
+    - "MaterialComponents/FeatureHighlight+FontThemer (= 92.4.0)"
+    - "MaterialComponents/FeatureHighlight+TypographyThemer (= 92.4.0)"
+    - MaterialComponents/FlexibleHeader (= 92.4.0)
+    - "MaterialComponents/FlexibleHeader+CanAlwaysExpandToMaximumHeight (= 92.4.0)"
+    - "MaterialComponents/FlexibleHeader+ColorThemer (= 92.4.0)"
+    - MaterialComponents/HeaderStackView (= 92.4.0)
+    - "MaterialComponents/HeaderStackView+ColorThemer (= 92.4.0)"
+    - MaterialComponents/Ink (= 92.4.0)
+    - "MaterialComponents/Ink+ColorThemer (= 92.4.0)"
+    - MaterialComponents/LibraryInfo (= 92.4.0)
+    - MaterialComponents/List (= 92.4.0)
+    - "MaterialComponents/List+ColorThemer (= 92.4.0)"
+    - "MaterialComponents/List+ListThemer (= 92.4.0)"
+    - "MaterialComponents/List+Theming (= 92.4.0)"
+    - "MaterialComponents/List+TypographyThemer (= 92.4.0)"
+    - MaterialComponents/MaskedTransition (= 92.4.0)
+    - MaterialComponents/NavigationBar (= 92.4.0)
+    - "MaterialComponents/NavigationBar+ColorThemer (= 92.4.0)"
+    - "MaterialComponents/NavigationBar+TypographyThemer (= 92.4.0)"
+    - MaterialComponents/NavigationDrawer (= 92.4.0)
+    - "MaterialComponents/NavigationDrawer+ColorThemer (= 92.4.0)"
+    - MaterialComponents/OverlayWindow (= 92.4.0)
+    - MaterialComponents/PageControl (= 92.4.0)
+    - "MaterialComponents/PageControl+ColorThemer (= 92.4.0)"
+    - MaterialComponents/Palettes (= 92.4.0)
+    - MaterialComponents/private (= 92.4.0)
+    - MaterialComponents/ProgressView (= 92.4.0)
+    - "MaterialComponents/ProgressView+ColorThemer (= 92.4.0)"
+    - "MaterialComponents/ProgressView+Theming (= 92.4.0)"
+    - MaterialComponents/Ripple (= 92.4.0)
+    - MaterialComponents/schemes (= 92.4.0)
+    - MaterialComponents/ShadowElevations (= 92.4.0)
+    - MaterialComponents/ShadowLayer (= 92.4.0)
+    - MaterialComponents/ShapeLibrary (= 92.4.0)
+    - MaterialComponents/Shapes (= 92.4.0)
+    - MaterialComponents/Slider (= 92.4.0)
+    - "MaterialComponents/Slider+ColorThemer (= 92.4.0)"
+    - MaterialComponents/Snackbar (= 92.4.0)
+    - "MaterialComponents/Snackbar+ColorThemer (= 92.4.0)"
+    - "MaterialComponents/Snackbar+FontThemer (= 92.4.0)"
+    - "MaterialComponents/Snackbar+TypographyThemer (= 92.4.0)"
+    - MaterialComponents/Tabs (= 92.4.0)
+    - "MaterialComponents/Tabs+ColorThemer (= 92.4.0)"
+    - "MaterialComponents/Tabs+FontThemer (= 92.4.0)"
+    - "MaterialComponents/Tabs+Theming (= 92.4.0)"
+    - "MaterialComponents/Tabs+TypographyThemer (= 92.4.0)"
+    - MaterialComponents/TextFields (= 92.4.0)
+    - "MaterialComponents/TextFields+ColorThemer (= 92.4.0)"
+    - "MaterialComponents/TextFields+ContainedInputView (= 92.4.0)"
+    - "MaterialComponents/TextFields+FontThemer (= 92.4.0)"
+    - "MaterialComponents/TextFields+Theming (= 92.4.0)"
+    - "MaterialComponents/TextFields+TypographyThemer (= 92.4.0)"
+    - MaterialComponents/Themes (= 92.4.0)
+    - MaterialComponents/Typography (= 92.4.0)
+  - MaterialComponents/ActionSheet (92.4.0):
+    - MaterialComponents/BottomSheet
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/Typography
+  - "MaterialComponents/ActionSheet+Theming (92.4.0)":
+    - MaterialComponents/ActionSheet
+    - MaterialComponents/Elevation
+    - MaterialComponents/private/Color
+    - MaterialComponents/schemes/Container
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/ActivityIndicator (92.4.0):
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Application
+    - MDFInternationalization
+    - MotionAnimator (~> 2.0)
+  - "MaterialComponents/ActivityIndicator+ColorThemer (92.4.0)":
+    - MaterialComponents/ActivityIndicator
+    - MaterialComponents/schemes/Color
+  - MaterialComponents/AnimationTiming (92.4.0)
+  - MaterialComponents/AppBar (92.4.0):
+    - MaterialComponents/FlexibleHeader
+    - MaterialComponents/HeaderStackView
+    - MaterialComponents/NavigationBar
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Icons/ic_arrow_back
+    - MaterialComponents/private/UIMetrics
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - "MaterialComponents/AppBar+ColorThemer (92.4.0)":
+    - MaterialComponents/AppBar
+    - "MaterialComponents/FlexibleHeader+ColorThemer"
+    - "MaterialComponents/NavigationBar+ColorThemer"
+    - MaterialComponents/Themes
+  - "MaterialComponents/AppBar+Theming (92.4.0)":
+    - MaterialComponents/AppBar
+    - MaterialComponents/schemes/Container
+  - "MaterialComponents/AppBar+TypographyThemer (92.4.0)":
+    - MaterialComponents/AppBar
+    - "MaterialComponents/NavigationBar+TypographyThemer"
+  - MaterialComponents/Banner (92.4.0):
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/Typography
+  - "MaterialComponents/Banner+Theming (92.4.0)":
+    - MaterialComponents/Banner
+    - MaterialComponents/Buttons
+    - "MaterialComponents/Buttons+Theming"
+    - MaterialComponents/Elevation
+    - MaterialComponents/schemes/Container
+    - MaterialComponents/Typography
+  - MaterialComponents/BottomAppBar (92.4.0):
+    - MaterialComponents/Buttons
+    - MaterialComponents/NavigationBar
+    - MaterialComponents/private/Math
+    - MDFInternationalization
+  - "MaterialComponents/BottomAppBar+ColorThemer (92.4.0)":
+    - MaterialComponents/BottomAppBar
+    - MaterialComponents/Themes
+  - MaterialComponents/BottomNavigation (92.4.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - "MaterialComponents/BottomNavigation+ColorThemer (92.4.0)":
+    - MaterialComponents/BottomNavigation
+    - MaterialComponents/schemes/Color
+  - "MaterialComponents/BottomNavigation+Theming (92.4.0)":
+    - MaterialComponents/BottomNavigation
+    - MaterialComponents/schemes/Color
+    - MaterialComponents/schemes/Container
+    - MaterialComponents/schemes/Typography
+    - MaterialComponents/ShadowElevations
+  - "MaterialComponents/BottomNavigation+TypographyThemer (92.4.0)":
+    - MaterialComponents/BottomNavigation
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/BottomSheet (92.4.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+  - "MaterialComponents/BottomSheet+ShapeThemer (92.4.0)":
+    - MaterialComponents/BottomSheet
+    - MaterialComponents/schemes/Shape
+  - MaterialComponents/ButtonBar (92.4.0):
+    - MaterialComponents/Buttons
+    - MaterialComponents/private/Application
+    - MDFInternationalization
+  - "MaterialComponents/ButtonBar+ColorThemer (92.4.0)":
+    - MaterialComponents/ButtonBar
+    - MaterialComponents/Themes
+  - "MaterialComponents/ButtonBar+TypographyThemer (92.4.0)":
+    - MaterialComponents/ButtonBar
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/Buttons (92.4.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - "MaterialComponents/Buttons+ButtonThemer (92.4.0)":
+    - MaterialComponents/Buttons
+    - "MaterialComponents/Buttons+ColorThemer"
+    - "MaterialComponents/Buttons+ShapeThemer"
+    - "MaterialComponents/Buttons+TypographyThemer"
+    - MaterialComponents/Palettes
+  - "MaterialComponents/Buttons+ColorThemer (92.4.0)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Color
+  - "MaterialComponents/Buttons+ShapeThemer (92.4.0)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Shape
+  - "MaterialComponents/Buttons+Theming (92.4.0)":
+    - MaterialComponents/Buttons
+    - "MaterialComponents/Buttons+ColorThemer"
+    - "MaterialComponents/Buttons+ShapeThemer"
+    - "MaterialComponents/Buttons+TypographyThemer"
+    - MaterialComponents/schemes/Container
+    - MaterialComponents/ShadowElevations
+  - "MaterialComponents/Buttons+TitleColorAccessibilityMutator (92.4.0)":
+    - MaterialComponents/Buttons
+    - MDFTextAccessibility
+  - "MaterialComponents/Buttons+TypographyThemer (92.4.0)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/Cards (92.4.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Icons/ic_check_circle
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+  - "MaterialComponents/Cards+CardThemer (92.4.0)":
+    - MaterialComponents/Cards
+    - "MaterialComponents/Cards+ColorThemer"
+    - "MaterialComponents/Cards+ShapeThemer"
+  - "MaterialComponents/Cards+ColorThemer (92.4.0)":
+    - MaterialComponents/Cards
+    - MaterialComponents/schemes/Color
+  - "MaterialComponents/Cards+ShapeThemer (92.4.0)":
+    - MaterialComponents/Cards
+    - MaterialComponents/schemes/Shape
+  - "MaterialComponents/Cards+Theming (92.4.0)":
+    - MaterialComponents/Cards
+    - "MaterialComponents/Cards+ColorThemer"
+    - "MaterialComponents/Cards+ShapeThemer"
+    - MaterialComponents/schemes/Container
+  - MaterialComponents/Chips (92.4.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+    - MaterialComponents/TextFields
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - "MaterialComponents/Chips+ChipThemer (92.4.0)":
+    - MaterialComponents/Chips
+    - "MaterialComponents/Chips+ColorThemer"
+    - "MaterialComponents/Chips+ShapeThemer"
+    - "MaterialComponents/Chips+TypographyThemer"
+  - "MaterialComponents/Chips+ColorThemer (92.4.0)":
+    - MaterialComponents/Chips
+    - MaterialComponents/schemes/Color
+  - "MaterialComponents/Chips+FontThemer (92.4.0)":
+    - MaterialComponents/Chips
+    - MaterialComponents/Themes
+  - "MaterialComponents/Chips+ShapeThemer (92.4.0)":
+    - MaterialComponents/Chips
+    - MaterialComponents/schemes/Shape
+  - "MaterialComponents/Chips+Theming (92.4.0)":
+    - MaterialComponents/Chips
+    - "MaterialComponents/Chips+ColorThemer"
+    - "MaterialComponents/Chips+ShapeThemer"
+    - "MaterialComponents/Chips+TypographyThemer"
+    - MaterialComponents/schemes/Container
+  - "MaterialComponents/Chips+TypographyThemer (92.4.0)":
+    - MaterialComponents/Chips
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/CollectionCells (92.4.0):
+    - MaterialComponents/CollectionLayoutAttributes
+    - MaterialComponents/Ink
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Icons/ic_check
+    - MaterialComponents/private/Icons/ic_check_circle
+    - MaterialComponents/private/Icons/ic_chevron_right
+    - MaterialComponents/private/Icons/ic_info
+    - MaterialComponents/private/Icons/ic_radio_button_unchecked
+    - MaterialComponents/private/Icons/ic_reorder
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/CollectionLayoutAttributes (92.4.0)
+  - MaterialComponents/Collections (92.4.0):
+    - MaterialComponents/CollectionCells
+    - MaterialComponents/CollectionLayoutAttributes
+    - MaterialComponents/Ink
+    - MaterialComponents/Palettes
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+  - MaterialComponents/Dialogs (92.4.0):
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - "MaterialComponents/Dialogs+ColorThemer (92.4.0)":
+    - "MaterialComponents/Buttons+ColorThemer"
+    - MaterialComponents/Dialogs
+    - MaterialComponents/Themes
+  - "MaterialComponents/Dialogs+DialogThemer (92.4.0)":
+    - "MaterialComponents/Buttons+ButtonThemer"
+    - MaterialComponents/Dialogs
+    - "MaterialComponents/Dialogs+ColorThemer"
+    - "MaterialComponents/Dialogs+TypographyThemer"
+  - "MaterialComponents/Dialogs+Theming (92.4.0)":
+    - "MaterialComponents/Buttons+Theming"
+    - MaterialComponents/Dialogs
+    - "MaterialComponents/Dialogs+ColorThemer"
+    - "MaterialComponents/Dialogs+TypographyThemer"
+    - MaterialComponents/schemes/Container
+    - MaterialComponents/ShadowElevations
+  - "MaterialComponents/Dialogs+TypographyThemer (92.4.0)":
+    - "MaterialComponents/Buttons+TypographyThemer"
+    - MaterialComponents/Dialogs
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/Elevation (92.4.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/FeatureHighlight (92.4.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFTextAccessibility
+  - "MaterialComponents/FeatureHighlight+ColorThemer (92.4.0)":
+    - MaterialComponents/FeatureHighlight
+    - MaterialComponents/Themes
+  - "MaterialComponents/FeatureHighlight+FeatureHighlightAccessibilityMutator (92.4.0)":
+    - MaterialComponents/FeatureHighlight
+    - MDFTextAccessibility
+  - "MaterialComponents/FeatureHighlight+FontThemer (92.4.0)":
+    - MaterialComponents/FeatureHighlight
+    - MaterialComponents/Themes
+  - "MaterialComponents/FeatureHighlight+TypographyThemer (92.4.0)":
+    - MaterialComponents/FeatureHighlight
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/FlexibleHeader (92.4.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/UIMetrics
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MDFTextAccessibility
+  - "MaterialComponents/FlexibleHeader+CanAlwaysExpandToMaximumHeight (92.4.0)":
+    - MaterialComponents/FlexibleHeader
+  - "MaterialComponents/FlexibleHeader+ColorThemer (92.4.0)":
+    - MaterialComponents/FlexibleHeader
+    - MaterialComponents/schemes/Color
+  - MaterialComponents/HeaderStackView (92.4.0)
+  - "MaterialComponents/HeaderStackView+ColorThemer (92.4.0)":
+    - MaterialComponents/HeaderStackView
+    - MaterialComponents/Themes
+  - MaterialComponents/Ink (92.4.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - "MaterialComponents/Ink+ColorThemer (92.4.0)":
+    - MaterialComponents/Ink
+    - MaterialComponents/Themes
+  - MaterialComponents/LibraryInfo (92.4.0)
+  - MaterialComponents/List (92.4.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - "MaterialComponents/List+ColorThemer (92.4.0)":
+    - MaterialComponents/List
+    - MaterialComponents/schemes/Color
+  - "MaterialComponents/List+ListThemer (92.4.0)":
+    - MaterialComponents/List
+    - "MaterialComponents/List+ColorThemer"
+    - "MaterialComponents/List+TypographyThemer"
+  - "MaterialComponents/List+Theming (92.4.0)":
+    - MaterialComponents/List
+    - "MaterialComponents/List+ColorThemer"
+    - "MaterialComponents/List+TypographyThemer"
+    - MaterialComponents/schemes/Container
+  - "MaterialComponents/List+TypographyThemer (92.4.0)":
+    - MaterialComponents/List
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/MaskedTransition (92.4.0):
+    - MotionAnimator (~> 2.0)
+    - MotionInterchange (~> 1.0)
+    - MotionTransitioning (~> 5.0)
+  - MaterialComponents/NavigationBar (92.4.0):
+    - MaterialComponents/ButtonBar
+    - MaterialComponents/Elevation
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - "MaterialComponents/NavigationBar+ColorThemer (92.4.0)":
+    - MaterialComponents/NavigationBar
+    - MaterialComponents/schemes/Color
+  - "MaterialComponents/NavigationBar+TypographyThemer (92.4.0)":
+    - MaterialComponents/NavigationBar
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/NavigationDrawer (92.4.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/UIMetrics
+    - MaterialComponents/ShadowLayer
+  - "MaterialComponents/NavigationDrawer+ColorThemer (92.4.0)":
+    - MaterialComponents/NavigationDrawer
+    - MaterialComponents/schemes/Color
+  - MaterialComponents/OverlayWindow (92.4.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/PageControl (92.4.0):
+    - MDFInternationalization
+  - "MaterialComponents/PageControl+ColorThemer (92.4.0)":
+    - MaterialComponents/PageControl
+    - MaterialComponents/Themes
+  - MaterialComponents/Palettes (92.4.0)
+  - MaterialComponents/private (92.4.0):
+    - MaterialComponents/private/Application (= 92.4.0)
+    - MaterialComponents/private/Color (= 92.4.0)
+    - MaterialComponents/private/Icons (= 92.4.0)
+    - MaterialComponents/private/KeyboardWatcher (= 92.4.0)
+    - MaterialComponents/private/Math (= 92.4.0)
+    - MaterialComponents/private/Overlay (= 92.4.0)
+    - MaterialComponents/private/ThumbTrack (= 92.4.0)
+    - MaterialComponents/private/UIMetrics (= 92.4.0)
+  - MaterialComponents/private/Application (92.4.0)
+  - MaterialComponents/private/Color (92.4.0)
+  - MaterialComponents/private/Icons (92.4.0):
+    - MaterialComponents/private/Icons/Base (= 92.4.0)
+    - MaterialComponents/private/Icons/ic_arrow_back (= 92.4.0)
+    - MaterialComponents/private/Icons/ic_check (= 92.4.0)
+    - MaterialComponents/private/Icons/ic_check_circle (= 92.4.0)
+    - MaterialComponents/private/Icons/ic_chevron_right (= 92.4.0)
+    - MaterialComponents/private/Icons/ic_color_lens (= 92.4.0)
+    - MaterialComponents/private/Icons/ic_help_outline (= 92.4.0)
+    - MaterialComponents/private/Icons/ic_info (= 92.4.0)
+    - MaterialComponents/private/Icons/ic_more_horiz (= 92.4.0)
+    - MaterialComponents/private/Icons/ic_radio_button_unchecked (= 92.4.0)
+    - MaterialComponents/private/Icons/ic_reorder (= 92.4.0)
+    - MaterialComponents/private/Icons/ic_settings (= 92.4.0)
+  - MaterialComponents/private/Icons/Base (92.4.0)
+  - MaterialComponents/private/Icons/ic_arrow_back (92.4.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Icons/ic_check (92.4.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Icons/ic_check_circle (92.4.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Icons/ic_chevron_right (92.4.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Icons/ic_color_lens (92.4.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Icons/ic_help_outline (92.4.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Icons/ic_info (92.4.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Icons/ic_more_horiz (92.4.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Icons/ic_radio_button_unchecked (92.4.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Icons/ic_reorder (92.4.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Icons/ic_settings (92.4.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/KeyboardWatcher (92.4.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (92.4.0)
+  - MaterialComponents/private/Overlay (92.4.0)
+  - MaterialComponents/private/ThumbTrack (92.4.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/private/UIMetrics (92.4.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/ProgressView (92.4.0):
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MDFInternationalization
+    - MotionAnimator (~> 2.1)
+  - "MaterialComponents/ProgressView+ColorThemer (92.4.0)":
+    - MaterialComponents/ProgressView
+    - MaterialComponents/Themes
+  - "MaterialComponents/ProgressView+Theming (92.4.0)":
+    - MaterialComponents/ProgressView
+    - MaterialComponents/schemes/Container
+  - MaterialComponents/Ripple (92.4.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/schemes (92.4.0):
+    - MaterialComponents/schemes/Color (= 92.4.0)
+    - MaterialComponents/schemes/Container (= 92.4.0)
+    - MaterialComponents/schemes/Shape (= 92.4.0)
+    - MaterialComponents/schemes/Typography (= 92.4.0)
+    - "MaterialComponents/schemes/Typography+BasicFontScheme (= 92.4.0)"
+  - MaterialComponents/schemes/Color (92.4.0):
+    - MaterialComponents/private/Color
+  - MaterialComponents/schemes/Container (92.4.0):
+    - MaterialComponents/schemes/Color
+    - MaterialComponents/schemes/Shape
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/schemes/Shape (92.4.0):
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+  - MaterialComponents/schemes/Typography (92.4.0):
+    - "MaterialComponents/schemes/Typography+BasicFontScheme"
+    - MaterialComponents/Typography
+  - "MaterialComponents/schemes/Typography+BasicFontScheme (92.4.0)"
+  - MaterialComponents/ShadowElevations (92.4.0)
+  - MaterialComponents/ShadowLayer (92.4.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/ShapeLibrary (92.4.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/Shapes
+  - MaterialComponents/Shapes (92.4.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Slider (92.4.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/ThumbTrack
+    - MaterialComponents/ShadowElevations
+  - "MaterialComponents/Slider+ColorThemer (92.4.0)":
+    - MaterialComponents/Palettes
+    - MaterialComponents/schemes/Color
+    - MaterialComponents/Slider
+  - MaterialComponents/Snackbar (92.4.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/OverlayWindow
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Overlay
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+  - "MaterialComponents/Snackbar+ColorThemer (92.4.0)":
+    - MaterialComponents/schemes/Color
+    - MaterialComponents/Snackbar
+  - "MaterialComponents/Snackbar+FontThemer (92.4.0)":
+    - MaterialComponents/Snackbar
+    - MaterialComponents/Themes
+  - "MaterialComponents/Snackbar+TypographyThemer (92.4.0)":
+    - MaterialComponents/schemes/Typography
+    - MaterialComponents/Snackbar
+  - MaterialComponents/Tabs (92.4.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - "MaterialComponents/Tabs+ColorThemer (92.4.0)":
+    - MaterialComponents/schemes/Color
+    - MaterialComponents/Tabs
+  - "MaterialComponents/Tabs+FontThemer (92.4.0)":
+    - MaterialComponents/Tabs
+    - MaterialComponents/Themes
+  - "MaterialComponents/Tabs+Theming (92.4.0)":
+    - MaterialComponents/schemes/Container
+    - MaterialComponents/Tabs
+    - "MaterialComponents/Tabs+ColorThemer"
+    - "MaterialComponents/Tabs+TypographyThemer"
+  - "MaterialComponents/Tabs+TypographyThemer (92.4.0)":
+    - MaterialComponents/schemes/Typography
+    - MaterialComponents/Tabs
+  - MaterialComponents/TextFields (92.4.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Elevation
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - "MaterialComponents/TextFields+ColorThemer (92.4.0)":
+    - MaterialComponents/TextFields
+    - MaterialComponents/Themes
+  - "MaterialComponents/TextFields+ContainedInputView (92.4.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+    - MDFInternationalization
+  - "MaterialComponents/TextFields+FontThemer (92.4.0)":
+    - MaterialComponents/TextFields
+    - MaterialComponents/Themes
+  - "MaterialComponents/TextFields+Theming (92.4.0)":
+    - MaterialComponents/schemes/Container
+    - MaterialComponents/TextFields
+    - "MaterialComponents/TextFields+ColorThemer"
+    - "MaterialComponents/TextFields+TypographyThemer"
+  - "MaterialComponents/TextFields+TypographyThemer (92.4.0)":
+    - MaterialComponents/schemes/Typography
+    - MaterialComponents/TextFields
+  - MaterialComponents/Themes (92.4.0):
+    - MaterialComponents/schemes/Color
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/Typography (92.4.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - Motion (3.1.3):
+    - Motion/Core (= 3.1.3)
+  - Motion/Core (3.1.3)
+  - MotionAnimator (2.8.1):
+    - MotionInterchange (~> 1.6)
+  - MotionInterchange (1.6.0)
+  - MotionTransitioning (5.0.0)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - ObjectMapper (3.5.1)
+  - Pageboy (3.5.0)
+  - PhoneNumberKit (2.6.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 2.6.0)
+    - PhoneNumberKit/UIKit (= 2.6.0)
+  - PhoneNumberKit/PhoneNumberKitCore (2.6.0)
+  - PhoneNumberKit/UIKit (2.6.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - PINCache (2.3)
+  - pop (1.0.12)
+  - Protobuf (3.10.0)
+  - Realm (3.19.1):
+    - Realm/Headers (= 3.19.1)
+  - Realm/Headers (3.19.1)
+  - RealmSwift (3.19.1):
+    - Realm (= 3.19.1)
+  - RevealingSplashView (0.6.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - SnapKit (5.0.1)
+  - SVProgressHUD (2.2.5)
+  - SwiftDate (6.1.0)
+  - SwiftEventBus (2.2.0)
+  - SwiftHEXColors (1.3.1)
+  - SwiftRichString (3.0.3)
+  - SwiftyJSON (4.1.0)
+  - SwiftyRSA (1.5.0):
+    - SwiftyRSA/ObjC (= 1.5.0)
+  - SwiftyRSA/ObjC (1.5.0)
+  - SwiftyTimer (2.1.0)
+  - Tabman (2.6.3):
+    - AutoInsetter (~> 1.8.0)
+    - Pageboy (~> 3.5.0)
+  - Toast-Swift (4.0.1)
+  - "UINavigationItem+Margin (2.1.1)"
+  - UIScrollView-InfiniteScroll (1.1.0)
+  - XCGLogger (6.0.4):
+    - XCGLogger/Core (= 6.0.4)
+  - XCGLogger/Core (6.0.4):
+    - ObjcExceptionBridging
+  - XLPagerTabStrip (9.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.2)
+  - AlamofireImage (~> 3.3)
+  - AlamofireObjectMapper (~> 5.2.0)
+  - APAddressBook/Swift
+  - BiometricAuthentication
+  - Crashlytics (~> 3.10)
+  - CryptoSwift
+  - Fabric
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/DynamicLinks
+  - Firebase/Messaging
+  - Firebase/MLVision
+  - Firebase/MLVisionLabelModel
+  - Firebase/Performance
+  - Firebase/RemoteConfig
+  - FLAnimatedImage (~> 1.0)
+  - fluid-slider
+  - FontAwesome.swift
+  - GoogleMaps
+  - GooglePlaces
+  - GoogleSignIn
+  - Hue
+  - IGListKit (~> 3.0)
+  - KDDragAndDropCollectionViews (~> 1.5.1)
+  - KeychainAccess
+  - Kingfisher
+  - Koyomi
+  - libPhoneNumber-iOS (~> 0.8)
+  - Localize-Swift (~> 2.0)
+  - Material
+  - MaterialComponents
+  - ObjectMapper (~> 3.3)
+  - PhoneNumberKit (~> 2.1)
+  - PINCache
+  - RealmSwift
+  - RevealingSplashView
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
+  - SnapKit
+  - SVProgressHUD
+  - SwiftDate
+  - SwiftEventBus (from `https://github.com/cesarferreira/SwiftEventBus.git`, tag `3.0.0`)
+  - SwiftHEXColors
+  - SwiftRichString
+  - SwiftyJSON (~> 4.1.0)
+  - SwiftyRSA
+  - SwiftyTimer
+  - Tabman (~> 2.6)
+  - Toast-Swift (~> 4.0.0)
+  - "UINavigationItem+Margin"
+  - UIScrollView-InfiniteScroll (~> 1.1.0)
+  - XCGLogger (~> 6.0.4)
+  - XLPagerTabStrip (from `https://github.com/xmartlabs/XLPagerTabStrip`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - AlamofireObjectMapper
+    - APAddressBook
+    - AppAuth
+    - AutoInsetter
+    - BiometricAuthentication
+    - Crashlytics
+    - CryptoSwift
+    - Fabric
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - FirebaseDatabase
+    - FirebaseDynamicLinks
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebaseMLCommon
+    - FirebaseMLVision
+    - FirebaseMLVisionLabelModel
+    - FirebasePerformance
+    - FirebaseRemoteConfig
+    - FLAnimatedImage
+    - fluid-slider
+    - FontAwesome.swift
+    - GoogleAPIClientForREST
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - Hue
+    - IGListKit
+    - KDDragAndDropCollectionViews
+    - KeychainAccess
+    - Kingfisher
+    - Koyomi
+    - leveldb-library
+    - libPhoneNumber-iOS
+    - Localize-Swift
+    - Material
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - Motion
+    - MotionAnimator
+    - MotionInterchange
+    - MotionTransitioning
+    - nanopb
+    - ObjcExceptionBridging
+    - ObjectMapper
+    - Pageboy
+    - PhoneNumberKit
+    - PINCache
+    - pop
+    - Protobuf
+    - Realm
+    - RealmSwift
+    - RevealingSplashView
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - SVProgressHUD
+    - SwiftDate
+    - SwiftHEXColors
+    - SwiftRichString
+    - SwiftyJSON
+    - SwiftyRSA
+    - SwiftyTimer
+    - Tabman
+    - Toast-Swift
+    - "UINavigationItem+Margin"
+    - UIScrollView-InfiniteScroll
+    - XCGLogger
+
+EXTERNAL SOURCES:
+  SwiftEventBus:
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+    :tag: 3.0.0
+  XLPagerTabStrip:
+    :branch: master
+    :git: https://github.com/xmartlabs/XLPagerTabStrip
+
+CHECKOUT OPTIONS:
+  SwiftEventBus:
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+    :tag: 3.0.0
+  XLPagerTabStrip:
+    :commit: bd0af432d5df5fa78328800590a60ae640b0b1a1
+    :git: https://github.com/xmartlabs/XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  APAddressBook: e68ecaf95f2c323b625ae585a0d25fe505291286
+  AppAuth: bce82c76043657c99d91e7882e8a9e1a93650cd4
+  AutoInsetter: 0b90ca74e36561c340129045a3722c51a0b15c58
+  BiometricAuthentication: e39b1a55040d679d5dbc4fa90d76e067c432de7f
+  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
+  CryptoSwift: 31dacd1f13427439ddae5b5cbaae4c8dbc43047e
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  Firebase: 5e6b7b12bf9adb90986688edc06b156c37e109cd
+  FirebaseABTesting: 0d10f3cdc3fa00f3f175b5b56c1003c8e888299f
+  FirebaseAnalytics: 0e3ecff2c5d86070f7d4325e21f1edabfbd558dc
+  FirebaseAnalyticsInterop: d48b6ab67bcf016a05e55b71fc39c61c0cb6b7f3
+  FirebaseAuth: c66e990f79d1d3429165391f6cd70ace6143c25e
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: 064c2dd92a8ca5974bbdcb080df9921e46bd34cd
+  FirebaseCoreDiagnostics: af29e43048607588c050889d19204f4d7b758c9f
+  FirebaseCoreDiagnosticsInterop: 6829da2b8d1fc795ff1bd99df751d3788035d2cb
+  FirebaseDatabase: 524802f7694268c79d34aeac3d67997593e1a0c9
+  FirebaseDynamicLinks: db62e9da4788f9c5ebce2028dab933a0c158cfe2
+  FirebaseInstanceID: 550df9be1f99f751d8fcde3ac342a1e21a0e6c42
+  FirebaseMessaging: 35edef69a6af9b34e9e44624089f054be3c09089
+  FirebaseMLCommon: 074a67e05122b1c9f6401a4e33b2cea3b4efd224
+  FirebaseMLVision: 7a456009787690e3b53436092ae9b635563de8f3
+  FirebaseMLVisionLabelModel: 7638a20d27219d5baa4b534a62375fc1d5bd077d
+  FirebasePerformance: f34a8250a9ff3c969e18bf89990486962354d9a2
+  FirebaseRemoteConfig: 03efa57106f9b6f7afe36658de4a9c67c803d3a8
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  fluid-slider: 68037ac7247f16a89f3e24ff5d0167c8eea6f50b
+  FontAwesome.swift: 7938d6a03113ff3f39001bde7f50be8a0903d605
+  GoogleAPIClientForREST: 4acfffd77f1c3c8741b6be9eaed0e603278efbde
+  GoogleAppMeasurement: 434cc7be25e71dc04b8d0e3079125127b330e84a
+  GoogleDataTransport: 166f9b9f82cbf60a204e8fe2daa9db3e3ec1fb15
+  GoogleDataTransportCCTSupport: f6ab1962e9dc05ab1fb938b795e5b310209edeec
+  GoogleMaps: 32ca02de09de357a10ac773f2c70f1986751392d
+  GooglePlaces: be6f19fe8aa6ff0b5bcccfa1b8805cc977ea1450
+  GoogleSignIn: 3a51b9bb8e48b635fd7f4272cee06ca260345b86
+  GoogleToolboxForMac: b3553629623a3b1bff17f555e736cd5a6d95ad55
+  GoogleUtilities: f895fde57977df4e0233edda0dbeac490e3703b6
+  GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
+  GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
+  KDDragAndDropCollectionViews: 96ffdc53d3e06d359110485f04c16cdfd7b13e4b
+  KeychainAccess: d5470352939ced6d6f7fb51cb2e67aae51fc294f
+  Kingfisher: b7e4cb65ff24c264bd2a1284b75b974d907afd94
+  Koyomi: f03615b8d2bb5a5a4752c6404a9794ed7ef7b327
+  leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
+  libPhoneNumber-iOS: 0a32a9525cf8744fe02c5206eb30d571e38f7d75
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  Material: a2a3f400a3b549d53ef89e56c58c4535b29db387
+  MaterialComponents: b584175e16dc0bff91ca4c867c64f381f89511ae
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  Motion: cf1e060e489f6661126374d5c60dbd2ed991605c
+  MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
+  MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
+  MotionTransitioning: 23d25edc2f4606efb922403cbac6d81af37aa33a
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  Pageboy: 3794c578aae5fcce06e90b3ed4a0ad6b807d75bb
+  PhoneNumberKit: 167ee1f0bbb6efce7c62559e620eae745595532f
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
+  Realm: fb377747e694c7deb62d402400454134fe321bee
+  RealmSwift: 1302b0ab60f3105a2b214a735eeb0938607cf16b
+  RevealingSplashView: 40c5a770894459736acdc95655eeba0dd30ce91c
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
+  SwiftEventBus: 667baca2f107fa0c9c2068950298dbfd6a4111cc
+  SwiftHEXColors: 7cc78ce189ddaff81f2ec1259b6b1dffdcda7643
+  SwiftRichString: 2aea7d0761f77f6ef234f6028cde761d7eef40e6
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  SwiftyRSA: 6e528fb1b1a87d5111c48081083b141d6d65f1cf
+  SwiftyTimer: 02dd6cf10cbc71cbf67cec494f6e5eb782102543
+  Tabman: 63eae331ae7a9388ae389b1808f1939269fcdece
+  Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
+  "UINavigationItem+Margin": 7368d506fb2f7daa0c0489846cc8c2384ab1ab6d
+  UIScrollView-InfiniteScroll: 3ef456bcbe759c19f510a383cff96e6647c98c98
+  XCGLogger: 4fc1bc0bdd5828cb8dc8da7a843536cda1bea8f3
+  XLPagerTabStrip: 6af5fe7b41c21f371860df6bac2ddf12818c5103
+
+PODFILE CHECKSUM: 0b3f373580e46fdcc08058a048c82e05141d9584
+
+COCOAPODS: 1.7.5
